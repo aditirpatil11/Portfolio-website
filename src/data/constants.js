@@ -125,15 +125,19 @@ export const experiences = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charlotte_49ers_logo.svg/396px-Charlotte_49ers_logo.svg.png?20220710050501",
-    role: "Academic Services Graduate Assistant",
+    role: "Graduate Assistant - Data Engineer",
     company: "University of North Carolina",
-    date: "Present",
-    desc: "I assist the Graduate Academic Services team with coordinating programs and delivering services, including managing email communications and supporting Mentor/Mentee training workshops. I conduct data analysis to prepare reports for decision-making, collect benchmarking data to inform policy development, and research graduate academic policies to compile reports as directed by the Director of Graduate Academic Services.",
+    date: "October 2023 - May 2025",
+    desc: "I optimized Banner’s PostgreSQL queries using CTEs, window functions, and CASE statements to analyze student records, course enrollments, and grades for trend monitoring and progress tracking. Processed thousands of DocuSign form submissions stored as JSON files in S3, using AWS Glue Crawlers to catalog and structure the data before loading it into Redshift. Improved Redshift query performance by applying distribution keys on department_id and sort keys on submission_date, enabling faster aggregations and operational insights. Designed Tableau dashboards connected to both Redshift and PostgreSQL to visualize key academic metrics, streamline approval workflows, and support departmental resource planning.",
     skills: [
-      "Data Analysis & Reporting",
+      "SQL", 
+      "PostgreSQL Database",
+      "Amazon S3",
+      "AWS Glue",
+      "AWS Redshift",
+      "Tableau",
       "Communication", 
-      "Email Management", 
-      "Research & Policy Development"
+      "Data Analysis & Reporting"
     ],
   },
   {
@@ -141,14 +145,13 @@ export const experiences = [
     img: "https://companieslogo.com/img/orig/BEL.NS-40caa314.png?t=1720244491",
     role: "Data Analyst Intern - Defense Application",
     company: "Bharat Electronics Limited",
-    date: "June 2022 - December 2022",
-    desc: "Used R for data cleaning, transformation, and analysis to improve data quality and generate actionable insights. Leveraged SQL to efficiently extract, join, and query data from sensor logs, maintenance records, and databases. Created dashboards in Tableau and Power BI to monitor jet performance, maintenance schedules, and operational metrics. Additionally, analyzed network data using R to identify patterns, detect anomalies, and enhance network reliability.",
+    date: "June 2022 - May 2023",
+    desc: "I used Python (Pandas) in Jupyter Notebook to preprocess aircraft sensor data, performing schema alignment, conditional filtering, time-based slicing, and applying custom functions to prepare it for analysis. The cleaned data was exported to MySQL using SQLAlchemy, where I wrote complex queries with JOINs, CTEs, and CASE statements to analyze fault patterns, high-risk components, and temperature-related error trends. I also built dashboards to track recurring faults and component issues, providing operational insights and supporting better maintenance planning.",
     skills: [
       "Tableau", 
       "Power BI", 
-      "R Programming", 
-      "SQL", 
-      "Network Management Systems"
+      "Python(Pandas)", 
+      "SQL"
     ],
      }
 ];
@@ -159,8 +162,8 @@ export const education = [
     img: "https://i.etsystatic.com/23898732/r/il/a259b6/6022190175/il_fullxfull.6022190175_iyz8.jpg",
     school: "University Of North Carolina",
     date: "Aug 2023 - May 2025",
-    grade: "3.7 GPA",
-    course : "Network Based Application Development, Software system design and implementation, Applied databases, Principles of Information Security and Privacy, Network Security, Big Data Analytics. ",
+    grade: "3.8 GPA",
+    course : "Business Intelligence and Analytics, Knowledge Based Systems, Applied databases, Visual Analytics. ",
     degree: "Masters of Science - Information Technology",
   },
   {
@@ -169,7 +172,7 @@ export const education = [
     school: "Visvesvaraya Technological University (VTU)",
     date: "July 2019 - June 2023",
     grade: "8.5 CGPA",
-    course : "Data Structures, Database Management Systems, Big Data Analytics, Computer Organization, Mobile Application Development, Data Mining and Warehousing, System Software, Artificial Intelligence and Machine Learning. ",
+    course : "Database Management Systems, Big Data Analytics, Data Mining, Machine Learning.",
     degree: "Bachelor of Engineering - Computer Science",
   }
 ];
@@ -202,7 +205,24 @@ export const certifications = [
       },
     ],
   },
-  
+  {
+    title: "AWS Certified Solutions Architect – Associate",
+   
+    skills: [
+      {
+        link: "https://www.credly.com/badges/19623052-d0c4-4cff-a253-ef1a2871a0d7/public_url",
+      },
+    ],
+  },
+  {
+    title: "AWS Certified AI Practitioner ",
+   
+    skills: [
+      {
+        link: "https://www.credly.com/badges/f13ffad9-84ff-4269-b299-3abdaea222fd",
+      },
+    ],
+  },
 ];
 
 
@@ -302,18 +322,16 @@ export const projects = [
   },
   {
     id: 0,
-    title: "Predictive Employee Turnover Analysis",
+    title: "Real-Time Event Streaming Pipeline for E-Commerce",
     description:
-      "I implemented a database schema in Google BigQuery to manage and analyze employee data for turnover prediction. By connecting Google Colab to BigQuery, I facilitated efficient data access and manipulation. I built a churn model using PyCaret and Random Forest to identify at-risk employees, exporting the results back to BigQuery. Additionally, I created a Looker Studio dashboard to visualize turnover risks and analyze factors affecting employee retention.",
+      "I designed and deployed a real-time event streaming pipeline for an e-commerce platform using Apache Kafka on AWS EC2, with Python scripts simulating continuous user activity such as product views, cart additions, and purchases. AWS Lambda functions were configured to consume events from Kafka, process them in real time, and store structured JSON data in Amazon S3 for downstream analytics. AWS Glue was integrated to catalog and structure the event data, enabling seamless SQL querying in Amazon Athena to analyze customer behavior patterns and product performance. I validated the end-to-end pipeline by running analytical queries in Athena to ensure data accuracy, timeliness, and reliability.",
     image:
-      "https://i.imgur.com/FgMDEdp.jpeg",
+      "https://imgur.com/a/9kOvukk",
     tags: [
-      "Google Cloud BigQuery", "Python (Colab)", "PyCaret", "Random Forest Classifier", "Looker Studio"
+      " Apache Kafka, Python, AWS EC2, AWS Lambda, AWS Glue, S3, Athena"
 
     ],
     
-    github: "https://github.com/aditirpatil11/Predictive-Employee-Turnover-Analysis.git",
-    webapp: "https://lookerstudio.google.com/u/0/reporting/7ffc1bcd-2646-48ef-ab05-d7690e2e9c4d/page/QXJ8D?s=tBJizqacXv0",
   },
 ];
 export const activities = [
