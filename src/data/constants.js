@@ -4,7 +4,7 @@ export const Bio = {
     "Data Enthusiast",
   ],
   description:
-    "I’m passionate about turning raw data into clear and actionable insights. From building real-time streaming pipelines to designing interactive dashboards, I love creating solutions that not only work technically but also make sense to the people using them. My work blends analytics, engineering, and problem-solving, with a constant curiosity to learn, adapt, and deliver impact. ",
+    "I’m passionate about turning raw data into actionable insights. From building real-time streaming pipelines to designing interactive dashboards, I love creating solutions that not only work technically but also make sense to the people using them. My work blends analytics, engineering, and problem-solving, with a constant curiosity to learn, adapt, and deliver impact. ",
   github: "https://www.linkedin.com/in/aditi-patil-raman-452199248/",
   resume: "https://drive.google.com/file/d/1KwxsT5JGjTCDV-tKQr9QVETzbzXpcxfM/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/aditi-patil-raman-452199248/",
@@ -302,7 +302,7 @@ export const projects = [
     description:
       "I designed and deployed a real-time event streaming pipeline for an e-commerce platform using Apache Kafka on AWS EC2, with Python scripts simulating continuous user activity such as product views, cart additions, and purchases. AWS Lambda functions were configured to consume events from Kafka, process them in real time, and store structured JSON data in Amazon S3 for downstream analytics. AWS Glue was integrated to catalog and structure the event data, enabling seamless SQL querying in Amazon Athena to analyze customer behavior patterns and product performance. I validated the end-to-end pipeline by running analytical queries in Athena to ensure data accuracy, timeliness, and reliability.",
     image:
-      "https://imgur.com/n8f0wck",
+      "https://imgur.com/a/SEybvoR",
     tags: [
       " Apache Kafka, Python, AWS EC2, AWS Lambda, AWS Glue, S3, Athena"
 
