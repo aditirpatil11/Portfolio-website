@@ -302,7 +302,7 @@ export const projects = [
     description:
       "I designed and deployed a real-time event streaming pipeline for an e-commerce platform using Apache Kafka on AWS EC2, with Python scripts simulating continuous user activity such as product views, cart additions, and purchases. AWS Lambda functions were configured to consume events from Kafka, process them in real time, and store structured JSON data in Amazon S3 for downstream analytics. AWS Glue was integrated to catalog and structure the event data, enabling seamless SQL querying in Amazon Athena to analyze customer behavior patterns and product performance. I validated the end-to-end pipeline by running analytical queries in Athena to ensure data accuracy, timeliness, and reliability.",
     image:
-      "https://i.imgur.com/kwqikpv.jpeg",
+      "https://drive.google.com/file/d/1XbSKzBUmQ5GNSw5a2i5KLCBSN-zoy3NF/view?usp=drive_link",
     tags: [
       " Apache Kafka, Python, AWS EC2, AWS Lambda, AWS Glue, S3, Athena"
 
