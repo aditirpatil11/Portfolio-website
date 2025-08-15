@@ -4,9 +4,9 @@ export const Bio = {
     "Data Enthusiast",
   ],
   description:
-    "I am motivated to work hard and learn new things, and I always strive to give my best in whatever I do. I am looking for opportunities to leverage my skills and experience, and to collaborate with others to achieve mutual goals. ",
+    "I’m passionate about turning raw data into clear stories and actionable insights. From building real-time streaming pipelines to designing interactive dashboards, I love creating solutions that not only work technically but also make sense to the people using them. My work blends analytics, engineering, and problem-solving, with a constant curiosity to learn, adapt, and deliver impact. ",
   github: "https://www.linkedin.com/in/aditi-patil-raman-452199248/",
-  resume: "https://drive.google.com/file/d/1tTF0NrgvYpZLOuRNJ8D4i5bns4tdXPur/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1KwxsT5JGjTCDV-tKQr9QVETzbzXpcxfM/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/aditi-patil-raman-452199248/",
   
 };
@@ -28,6 +28,108 @@ export const skills = [
         name: "SQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+    ],
+  },
+  {
+    title: "Big Data & Streaming:",
+    skills: [
+      {
+        name: "Hadoop",
+        image:"https://commons.wikimedia.org/wiki/File:Hadoop_logo_new.svg",
+      },
+      {
+        name: "Spark",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg",
+      },
+      {
+        name: "EMR",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Analytics/EMR.svg",
+      },
+      {
+        name: "Apache Kafka",
+        image:
+          "https://www.svgrepo.com/show/305719/apachekafka.svg",
+      },
+    ],
+  },
+  {
+    title: "Cloud Platforms and Services",
+    skills: [
+      {
+        name: "Amazon Web Services(AWS)",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png?20170912170050",
+      },
+      {
+        name: "Amazon S3",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/856px-Amazon-S3-Logo.svg.png?20220427001138",
+      },
+      {
+        name: "Amazon Redshift",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/aws-redshift-logo.svg",
+      },
+      {
+        name: "AWS Glue",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Analytics/Glue.svg",
+      },
+      {
+        name: "AWS Lambda",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg",
+      },
+      {
+        name: "Amazon Athena",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Analytics/Athena.svg",
+      },
+      {
+        name: "IAM",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/IAM-Identity-Center.svg",
+      },
+      {
+        name: "CloudWatch",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg",
+      },
+      {
+        name: "CloudFormation",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Management-Governance/CloudFormation.svg",
+      },
+      {
+        name: "Google Cloud Platform",
+        image:
+          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+      },
+    ],
+  },
+  {
+    title: "Databases & Warehousing:",
+    skills: [
+      {
+        name: "PostgreSQL",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1080px-Postgresql_elephant.svg.png?20080116191800",
+      },
+      {
+        name: "Amazon Redshift",
+        image:
+          "https://icon.icepanel.io/AWS/svg/Analytics/Redshift.svg",
+      },
+      {
+        name: "Snowflake",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Snowflake_Logo.svg/368px-Snowflake_Logo.svg.png?20210330073721",
+      },
+      {
+        name: "Looker Studio",
+        image:
+          "https://www.svgrepo.com/show/354012/looker-icon.svg",
       },
     ],
   },
@@ -55,42 +157,7 @@ export const skills = [
     ],
   },
   {
-    title: "Cloud Services",
-    skills: [
-      {
-        name: "Amazon Web Services(AWS)",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png?20170912170050",
-      },
-      {
-        name: "Amazon S3",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/856px-Amazon-S3-Logo.svg.png?20220427001138",
-      },
-      {
-        name: "Amazon Redshift",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/aws-redshift-logo.svg",
-      },
-      {
-        name: "AWS Glue",
-        image:
-          "https://icon.icepanel.io/AWS/svg/Analytics/Glue.svg",
-      },
-      {
-        name: "AWS EC2",
-        image:
-          "https://www.svgrepo.com/show/353449/aws-ec2.svg",
-      },
-      {
-        name: "Google Cloud Platform",
-        image:
-          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
-      },
-    ],
-  },
-  {
-    title: "Others",
+    title: "Data Engineering",
     skills: [
       {
         name: "Data Cleaning",
@@ -108,14 +175,14 @@ export const skills = [
           "https://cdn.iconscout.com/icon/premium/png-512-thumb/etl-10518500-8480490.png?f=webp&w=512",
       },
       {
-        name: "Windows OS",
+        name: "Data Modelling",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/176px-Windows_logo_-_2012.svg.png?20220903072431",
+          "https://www.svgrepo.com/show/438985/sql.svg",
       },
       {
-        name: "Microsoft Office(Word, Excel, Powerpoint)",
+        name: "Data Warehousing",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/240px-Microsoft_icon.svg.png",
+          "https://www.svgrepo.com/show/486283/data-center-data-warehouse.svg",
       },
     ],
   },
@@ -326,7 +393,7 @@ export const projects = [
     description:
       "I designed and deployed a real-time event streaming pipeline for an e-commerce platform using Apache Kafka on AWS EC2, with Python scripts simulating continuous user activity such as product views, cart additions, and purchases. AWS Lambda functions were configured to consume events from Kafka, process them in real time, and store structured JSON data in Amazon S3 for downstream analytics. AWS Glue was integrated to catalog and structure the event data, enabling seamless SQL querying in Amazon Athena to analyze customer behavior patterns and product performance. I validated the end-to-end pipeline by running analytical queries in Athena to ensure data accuracy, timeliness, and reliability.",
     image:
-      "https://imgur.com/a/9kOvukk",
+      "https://imgur.com/a/UdU3gZy",
     tags: [
       " Apache Kafka, Python, AWS EC2, AWS Lambda, AWS Glue, S3, Athena"
 
